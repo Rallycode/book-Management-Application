@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+#title {
+    width: 100%;
+    font-weight: 700;
+    background-color: rgb(225 65 65 / 94%);
+    color: black;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+.book-container {
+    background-color: black;
+    color: white;
+    width: 25%;
+    padding: 15px;
+    border-radius: 8px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.book-container h1 {
+    color: red;
+}
+
+.book-container button {
+    width: 95%;
+    background-color: rgb(225 65 65 / 94%);
+    color: white;
+    /* padding-inline: 5px; */
+    padding: 10px 20px;
+    border: none;
+    margin: 5px;
+}
+
+#add-popup-button {
+    padding: 20px 30px;
+    border-radius: 100%;
+    background-color: rgb(225 65 65 / 94%);
+    font-size: 40px;
+    border: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    
+
+}
+
+.popup-overlay {
+    background-color: black;
+    opacity: 0.8;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+
+/* Input box*/
+.add-container {
+    background-color: rgb(225 65 65 / 94%);
+    border-radius: 8px;
+    padding: 40px;
+    position: absolute;
+    z-index: 2;
+    width: 40%;
+    top: 20%;
+    left: 30%;
+    display: none;
+}
+
+.add-container input {
+    background: transparent;
+    border: none;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border-bottom: solid black 2px;
+}
+
+.add-container textarea {
+    background: transparent;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border: solid black 2px;
+}
+
+.add-container input::placeholder,
+.add-container textarea::placeholder {
+    color: black;
+}
+
+
+.add-container button {
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.add-container input:focus,
+.add-container textarea:focus {
+    outline: none;
+}
