@@ -1,13 +1,29 @@
-# BookSky
+# Book Management Application
 
-I have created this project using HTML, CSS, and JavaScript, and it's deployed on GitPages. You can check it out [here](https://rallycode.github.io/bookManager/).
+A comprehensive **Book Management Application** built using **HTML**, **CSS**, and **JavaScript**. This application allows users to manage a collection of books by adding, editing, viewing, and deleting entries. The application is designed with a user-friendly interface and responsive design for seamless use across devices.
 
-## About
+## Features
 
-BookSky is a simple web page where users can share their views about a book. The user can add a review with details such as the book title, author's name, and their thoughts on the book. Additionally, users have the option to delete their reviews. 
+- Add new books with details like title, author, genre, and publication year
+- View the list of books in a table format
+- Edit and update book information
+- Delete books from the list
+- Responsive design for both mobile and desktop users
+- Persistent data storage using LocalStorage (or backend integration if available)
 
-Please note that this is currently a front-end project, and there is no backend to store the review records. However, I am considering adding backend functionality in the future.
+## Technologies Used
 
-Feel free to explore the [BookSky project](https://rallycode.github.io/bookManager/)!
+- **HTML5**: For structuring the application interface
+- **CSS3**: For styling the interface and ensuring a responsive design
+- **JavaScript**: For managing the logic and interactivity of the application
 
+## Screenshots
 
+![Book Management Preview](./screenshots/book-management.png)
+
+## How to Use
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Rallycode/book-management.git
